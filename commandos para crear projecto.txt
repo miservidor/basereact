@@ -1,0 +1,27 @@
+git init
+npm init
+
+npm install react react-dom
+
+mkdir public
+cd public 
+touch index.html
+cd ..
+mkdir src
+cd src
+touch index.js
+mkdir components
+cd components
+touch App.jsx
+
+
+Comandos NPM
+
+Babel:
+npm install @babel/core @babel/preset-env @babel/preset-react 
+
+Webpack
+npm install webpack webpack-cli webpack-dev-server
+
+Html plugin 
+npm install babel-loader html-loader html-webpack-plugin
